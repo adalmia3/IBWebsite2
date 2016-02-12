@@ -167,7 +167,7 @@
 
 #header{
   margin-bottom: 0;
-  padding: 30px 0 60px 0;
+  padding: 30px 0px 60px 0;
 }
 
 #header .navbar-inverse .container{
@@ -220,7 +220,7 @@
 }
 
 .social-icons ul li a{
-  font-size: 18px;
+  font-size: 28px;
   color: #d3d3d3;
   padding: 0;
 }
@@ -267,7 +267,7 @@
 
 #header .navbar-brand h1{
   padding: 0;
-  margin: 0;
+  margin: 0px 100px 0px 0px; 
 }
 
 #header .navbar-nav.navbar-right >li:last-child{
@@ -276,10 +276,10 @@
 
 #header .navbar-nav.navbar-right >li a {
   color: #000;
-  font-size: 12px;
+  font-size: 18px;
   padding: 20px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 375;
 }
 
 
@@ -309,7 +309,7 @@ ul.sub-menu {
 #header .navbar-nav li ul.sub-menu li a{
   color: #818285;
   padding: 5px 0;
-  font-size: 13px;
+  font-size: 18px;
   display: block;
   text-transform: capitalize;
 }
