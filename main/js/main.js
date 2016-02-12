@@ -40,12 +40,14 @@ jQuery(function($) {'use strict';
 			});
 			
 			$portfolio_selectors.on('click', function(){
+				$('#uniquename').show();
 				$portfolio_selectors.removeClass('active');
 				$(this).addClass('active');
 				var selector = $(this).attr('data-filter');
 				$portfolio.isotope({ filter: selector });
 				return false;
-			});
+			})
+
 		}
 
 	});
