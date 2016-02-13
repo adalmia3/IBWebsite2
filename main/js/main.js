@@ -1,5 +1,6 @@
 jQuery(function($) {'use strict';
 
+
 	//Responsive Nav
 	$('li.dropdown').find('.fa-angle-down').each(function(){
 		$(this).on('click', function(){
@@ -30,9 +31,9 @@ jQuery(function($) {'use strict';
 		}
 
 		var $portfolio_selectors = $('.portfolio-filter >li>a');
-		
+
 		if($portfolio_selectors.length) {
-			
+
 			var $portfolio = $('.portfolio-items');
 			$portfolio.isotope({
 				itemSelector : '.portfolio-item',

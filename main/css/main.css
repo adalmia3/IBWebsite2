@@ -761,7 +761,8 @@ ul.sub-menu {
 }
 
 #page-breadcrumb {
-  background-color: #e3e2de;
+  background: linear-gradient(to top, rgba(0,0,0,.15), rgba(255,255,255,1));
+  /*background-color: #e3e2de;*/
   background-repeat: repeat-x;
   height: 130px;
   background-position: center;
