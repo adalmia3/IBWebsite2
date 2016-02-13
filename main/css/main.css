@@ -167,7 +167,7 @@
 
 #header{
   margin-bottom: 0;
-  background-color: #fbfafa;
+  background-color: #fff;
   padding: 30px 0px 60px 0;
 }
 
@@ -252,9 +252,10 @@
 }
 
 #header .navbar {
-  background-color: #fbfafa;
+  background-color: #fff;
   border: 0;
   margin-bottom: 0;
+
 }
 
 #header .navbar-toggle{
@@ -269,7 +270,7 @@
 
 #header .navbar-brand h1{
   padding: 0;
-  margin: 0px 100px 0px 0px; 
+  margin: -5px 0px 0px 0px; 
 }
 
 #header .navbar-nav.navbar-right >li:last-child{
@@ -752,7 +753,7 @@ ul.sub-menu {
 
 
 /*************************
-*******LayoutLevel******
+*******Layout Level******
 **************************/
 
 #action , 
@@ -761,7 +762,7 @@ ul.sub-menu {
 }
 
 #page-breadcrumb {
-  background: linear-gradient(to top, rgba(0,0,0,.15), rgba(255,255,255,1));
+  background: linear-gradient(to top, rgba(0,0,0,.), rgba(255,255,255,1));
   /*background-color: #e3e2de;*/
   background-repeat: repeat-x;
   height: 130px;
